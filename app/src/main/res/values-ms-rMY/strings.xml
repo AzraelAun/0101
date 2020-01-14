@@ -34,7 +34,7 @@
     <string name="practical">Amalan</string>
     <string name="register">Daftar akaun</string>
     <string name="registration_form">Daftar akaun</string>
-    <string name="timeLeft">Masa tersisa</string>
+    <string name="timeLeft">Masa tersisa: %1$d</string>
     <string name="title">Tentang Kita</string>
     <string name="user_profile">Profil pengguna</string>
     <string name="editpass">Masukkan kata laluan baru</string>
@@ -65,4 +65,5 @@
     <string name="YES">ADA</string>
     <string name="ready">Anda sudah bersedia untuk memulakan permainan</string>
     <string name="Start_game">Mula permainan</string>
+    <string name="About_Details">Info about our app....</string>
 </resources>

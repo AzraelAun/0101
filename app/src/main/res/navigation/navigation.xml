@@ -9,7 +9,7 @@
     <fragment
         android:id="@+id/menu"
         android:name="com.example.menu.Menu"
-        android:label="Main Menu"
+        android:label="@string/Main_Menu"
         tools:layout="@layout/fragment_menu">
         <action
             android:id="@+id/action_menu_to_tutorial"
@@ -25,12 +25,12 @@
     <fragment
         android:id="@+id/tutorial"
         android:name="com.example.menu.Tutorial"
-        android:label="Tutorial"
+        android:label="@string/tutorial"
         tools:layout="@layout/fragment_tutorial" />
     <fragment
         android:id="@+id/practical"
         android:name="com.example.menu.Practical"
-        android:label="Practical"
+        android:label="@string/practical"
         tools:layout="@layout/fragment_practical">
         <action
             android:id="@+id/action_practical_to_completePractical"
@@ -49,12 +49,12 @@
     <fragment
         android:id="@+id/aboutUs"
         android:name="com.example.menu.AboutUs"
-        android:label="About Us"
+        android:label="@string/About_Us"
         tools:layout="@layout/fragment_about_us" />
     <fragment
         android:id="@+id/completePractical"
         android:name="com.example.menu.CompletePractical"
-        android:label="You Win">
+        android:label="@string/You_Win">
         <action
             android:id="@+id/action_completePractical_to_practical"
             app:destination="@id/practical" />
@@ -62,7 +62,7 @@
     <fragment
         android:id="@+id/failPractical"
         android:name="com.example.menu.FailPractical"
-        android:label="You lose"
+        android:label="@string/You_lose"
         tools:layout="@layout/fragment_fail_practical">
         <action
             android:id="@+id/action_failPractical_to_practical"
@@ -71,16 +71,16 @@
     <fragment
         android:id="@+id/garbageCollectionService"
         android:name="com.example.menu.GarbageCollectionService"
-        android:label="Garbage Collection Service"
+        android:label="@string/garbage_collection_service"
         tools:layout="@layout/fragment_garbage_collection" />
     <fragment
         android:id="@+id/editProfile"
         android:name="com.example.menu.EditProfile"
-        android:label="Edit Profile"
+        android:label="@string/edit_profile"
         tools:layout="@layout/fragment_edit_profile" />
     <fragment
         android:id="@+id/changePassword"
         android:name="com.example.menu.ChangePassword"
-        android:label="fragment_change_password"
+        android:label="@string/Change_Password"
         tools:layout="@layout/fragment_change_password" />
 </navigation>

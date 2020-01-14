@@ -65,4 +65,8 @@
     <string name="ready">Are you ready to start the game?</string>
     <string name="YES">YES</string>
     <string name="No">NO</string>
+    <string name="About_Details" translatable="false">Info about our app....</string>
+    <string name="Main_Menu">Main Menu</string>
+    <string name="You_Win">You Win</string>
+    <string name="You_lose">You Lose</string>
 </resources>

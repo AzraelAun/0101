@@ -34,7 +34,7 @@
     <string name="phone_no">电话号码</string>
     <string name="register">注册</string>
     <string name="registration_form">注册</string>
-    <string name="timeLeft">时间只剩下：</string>
+    <string name="timeLeft">时间只剩下： %1$d</string>
     <string name="trash_it_right">Trash it Right!</string>
     <string name="try_again">再来一次</string>
     <string name="welcome">欢迎</string>
@@ -65,4 +65,5 @@
     <string name="YES">是</string>
     <string name="Start_game">开始游戏</string>
     <string name="ready">你准备好开始游戏了吗？</string>
+    <string name="About_Details" translatable="false">开发人：温子萱</string>
 </resources>
