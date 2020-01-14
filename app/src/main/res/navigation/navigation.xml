@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menu">
+
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.menu.Menu"
+        android:label="Main Menu"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menu_to_tutorial"
+            app:destination="@id/tutorial"
+            app:popUpTo="@+id/menu"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_menu_to_practical"
+            app:destination="@id/practical"
+            app:popUpTo="@+id/menu"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorial"
+        android:name="com.example.menu.Tutorial"
+        android:label="Tutorial"
+        tools:layout="@layout/fragment_tutorial" />
+    <fragment
+        android:id="@+id/practical"
+        android:name="com.example.menu.Practical"
+        android:label="Practical"
+        tools:layout="@layout/fragment_practical">
+        <action
+            android:id="@+id/action_practical_to_completePractical"
+            app:destination="@id/completePractical"
+            app:popUpTo="@+id/practical"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_practical_to_failPractical"
+            app:destination="@id/failPractical"
+            app:popUpTo="@+id/practical"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_practical_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.example.menu.AboutUs"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/completePractical"
+        android:name="com.example.menu.CompletePractical"
+        android:label="You Win">
+        <action
+            android:id="@+id/action_completePractical_to_practical"
+            app:destination="@id/practical" />
+    </fragment>
+    <fragment
+        android:id="@+id/failPractical"
+        android:name="com.example.menu.FailPractical"
+        android:label="You lose"
+        tools:layout="@layout/fragment_fail_practical">
+        <action
+            android:id="@+id/action_failPractical_to_practical"
+            app:destination="@id/practical" />
+    </fragment>
+    <fragment
+        android:id="@+id/garbageCollectionService"
+        android:name="com.example.menu.GarbageCollectionService"
+        android:label="Garbage Collection Service"
+        tools:layout="@layout/fragment_garbage_collection" />
+    <fragment
+        android:id="@+id/editProfile"
+        android:name="com.example.menu.EditProfile"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/changePassword"
+        android:name="com.example.menu.ChangePassword"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+</navigation>

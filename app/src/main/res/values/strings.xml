@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Trash it Right!</string>
+    <string name="trash_it_right">Trash it Right!</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="practical">Practical</string>
+    <string name="About_Us">About Us</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title">About Us</string>
+    <string name="About_Details" translatable="false">Info about our app....</string>
+    <string name="timeLeft">Time left: %1$d</string>
+    <string name="congratulation">Congratulation!</string>
+    <string name="button_win">Next Match</string>
+    <string name="try_again">Try again</string>
+    <string name="btn_lose">Play again</string>
+    <string name="phone_no">Phone No :</string>
+    <string name="name">Name :</string>
+    <string name="garbage_collection_request">Garbage Collection Request</string>
+    <string name="click_to_select_service_date_time">Click to Select Service Date Time</string>
+    <string name="title_activity_main">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="registration_form">Sign Up</string>
+    <string name="already">Already have an Account?</string>
+    <string name="phone">Enter Phone No</string>
+    <string name="Profile">Profile</string>
+    <string name="editemail">Email</string>
+    <string name="editusername">User Name</string>
+    <string name="editaddress">Address</string>
+    <string name="edit">Save</string>
+    <string name="password">Enter Password</string>
+    <string name="username">Enter Username</string>
+    <string name="cancel">Cancel</string>
+    <string name="register">Register</string>
+    <string name="address">Enter Address</string>
+    <string name="email">Enter Email</string>
+    <string name="welcome">Welcome</string>
+    <string name="log_in">Login</string>
+    <string name="not_registered">Not Registered? Sign Up?</string>
+    <string name="todo" translatable="false">todo</string>
+    <string name="garbage_collection">Garbage Collection</string>
+    <string name="collection_service">Collection Service</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="editpass">New Password</string>
+    <string name="editpass_button">Change Password</string>
+    <string name="editpassword">Retype Password</string>
+    <string name="confirm_password">Enter Retype Password</string>
+    <string name="editcurrentpass">Current Password</string>
+    <string name="garbage_collection_service">Garbage Collection Service</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="user_profile">User Profile</string>
+    <string name="Register_Successful">Register Successful</string>
+    <string name="Email_cannot_empty">Email cannot be empty</string>
+    <string name="Incorrect_CPassword">Incorrect Confirm Password</string>
+    <string name="Passwordempty">Password cannot be empty</string>
+    <string name="Username_Used">Username Been Used</string>
+    <string name="Usernameempty">Username cannot be empty</string>
+    <string name="UPassw_Incorrect">Username Or Password Incorrect, Please enter again~</string>
+    <string name="UPassw_empty">Username and Password cannot be empty</string>
+    <string name="ChangePass_Successful">Change Password Successful</string>
+    <string name="RPassw_Incorrect">Retype Password Incorrect</string>
+    <string name="OPassw_Incorrect">Old Password Incorrect</string>
+    <string name="EProfile_Successful">Edit Profile Successful</string>
+    <string name="Address_cannot_empty">Address cannot be empty</string>
+    <string name="agree">You are not agree</string>
+    <string name="finished">Practical has just finished\"</string>
+    <string name="Login_Successful">Login Successful</string>
+</resources>

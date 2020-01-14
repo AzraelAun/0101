@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.menu.EditProfile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/a001">
+
+        <TextView
+            android:id="@+id/Profile"
+            android:layout_width="401dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="68dp"
+            android:background="#00FEFFFF"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="@string/Profile"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="28dp"
+            android:background="#30FFFFFF"
+            android:drawableStart="@drawable/email"
+            android:ems="10"
+            android:hint="@string/editemail"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editusername" />
+
+        <TextView
+            android:id="@+id/editusername"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="8dp"
+            android:background="#30FFFFFF"
+            android:clickable="false"
+            android:drawableStart="@drawable/user"
+            android:ems="10"
+            android:hint="@string/editusername"
+            android:importantForAutofill="no"
+            android:maxLines="1"
+            android:shadowColor="#00FFFFFF"
+            android:singleLine="false"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.577"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Profile"
+            tools:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editaddress"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="28dp"
+            android:background="#30FFFFFF"
+            android:drawableStart="@drawable/home"
+            android:ems="10"
+            android:hint="@string/editaddress"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editemail" />
+
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="202dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="244dp"
+            android:layout_weight="1"
+            android:background="#C3FF9800"
+            android:text="@string/edit"
+            android:textColor="#E8FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editaddress"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
