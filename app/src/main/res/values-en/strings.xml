@@ -61,4 +61,8 @@
     <string name="agree">You are not agree</string>
     <string name="finished">Practical has just finished\"</string>
     <string name="Login_Successful">Login Successful</string>
+    <string name="Start_game">Start game</string>
+    <string name="ready">Are you ready to start the game?</string>
+    <string name="YES">YES</string>
+    <string name="No">NO</string>
 </resources>

@@ -61,4 +61,8 @@
     <string name="agree">你不同意</string>
     <string name="finished">刚刚练习结束</string>
     <string name="Login_Successful">登入成功</string>
+    <string name="No">不</string>
+    <string name="YES">是</string>
+    <string name="Start_game">开始游戏</string>
+    <string name="ready">你准备好开始游戏了吗？</string>
 </resources>

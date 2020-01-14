@@ -83,13 +83,13 @@ class Practical : Fragment() {
         val builder = AlertDialog.Builder(binding.root.context)
 
         // Set the alert dialog title
-        builder.setTitle("Start game")
+        builder.setTitle(getString(R.string.Start_game))
 
         // Display a message on alert dialog
-        builder.setMessage("Are you ready to start the game?")
+        builder.setMessage(getString(R.string.ready))
 
         // Set a positive button and its click listener on alert dialog
-        builder.setPositiveButton("YES"){dialog, which ->
+        builder.setPositiveButton(getString(R.string.YES)){dialog, which ->
 
             object : CountDownTimer(30000, 1000) {
                 @SuppressLint("StringFormatInvalid")
@@ -166,7 +166,7 @@ class Practical : Fragment() {
         }
 
         // Display a negative button on alert dialog
-        builder.setNegativeButton("No"){dialog,which ->
+        builder.setNegativeButton(getString(R.string.No)){dialog,which ->
             Toast.makeText(activity,getString(R.string.agree),Toast.LENGTH_SHORT).show()
             val action = PracticalDirections.actionPracticalToMenu()
             NavHostFragment.findNavController(this).navigate(action)

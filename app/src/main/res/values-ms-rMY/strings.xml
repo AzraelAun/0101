@@ -61,4 +61,8 @@
     <string name="agree">Anda tidak bersetuju</string>
     <string name="finished">Hanya selesai latihan</string>
     <string name="Login_Successful">Log masuk berjaya</string>
+    <string name="No">TIDAK</string>
+    <string name="YES">ADA</string>
+    <string name="ready">Anda sudah bersedia untuk memulakan permainan</string>
+    <string name="Start_game">Mula permainan</string>
 </resources>
