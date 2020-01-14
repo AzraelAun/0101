@@ -66,4 +66,7 @@
     <string name="ready">Anda sudah bersedia untuk memulakan permainan</string>
     <string name="Start_game">Mula permainan</string>
     <string name="About_Details">Info about our app....</string>
+    <string name="Main_Menu">Menu</string>
+    <string name="You_Win">Anda menang</string>
+    <string name="You_lose">Anda kehilangan</string>
 </resources>

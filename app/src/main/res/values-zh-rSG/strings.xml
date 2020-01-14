@@ -66,4 +66,7 @@
     <string name="Start_game">开始游戏</string>
     <string name="ready">你准备好开始游戏了吗？</string>
     <string name="About_Details" translatable="false">开发人：温子萱</string>
+    <string name="Main_Menu">主菜单</string>
+    <string name="You_Win">你赢</string>
+    <string name="You_lose">你输</string>
 </resources>
